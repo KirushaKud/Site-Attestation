@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CallCenter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div id="logo" onclick="slowScroll('#top')">
+            <span>TeleScript</span>
+        </div>
+        <div id="about">
+            <a href="#" title="Возможности" onclick="slowScroll('#main')">Возможности</a>
+            <a href="#" title="Преимущества" onclick="slowScroll('#overview')">Преимущества</a>
+            <a href="#" title="Контакты" onclick="slowScroll('#contacts')">Контакты</a>
+            <a href="#" title="О нас" onclick="slowScroll('#faq')">О нас</a>
+        </div>
+    </header>
+
+    <div id = "top">
+        <h1>Нам не всё равно</h1>
+        <h3>поэтому Call Center!</h3>
+    </div>
+
+    <div id="main">
+        <div class="intro">
+            <h2>Они выбрали колл-центр «TeleScript»</h2>
+            <span>Работай не выходя из дома</span>
+        </div>
+        <div class="text">
+            <span>• Мы говорим с потребителями от имени крупнейших российских и международных компаний.<br>
+• У нас масштабные и комплексные задачи, требующие нестандартного подхода.<br>
+• Просторные операторские залы, индивидуальное рабочее место, оборудованные учебные классы, комфортные условия – все, чтобы сосредоточиться и выполнить рабочие задачи.<br>
+• Ты будешь участвовать в регулярных тренингах и развивать soft skills.<br>
+• У тебя будет высококомпетентный руководитель, наставник и индивидуальный коучинг от старших коллег.<br>
+• Мы фокусируемся на командной работе, взаимовыручке и поддержке на всех уровнях.<br>
+• Мы воспринимаем ошибки как неотъемлемую часть опыта.<br>
+• У нас объективная система премирования по результатам усердной работы.</span>
+        </div>
+    </div>
+
+    <div id="overview">
+        <h2>Преимущества</h2>
+        <h4>мы заботимся о наших сотрудниках</h4>
+        
+        <div class="img">
+            <img src="https://ocdn.eu/pulscms-transforms/1/ck4k9kpTURBXy9kODZlYTBlMmJhMjZlYTE0N2I3MWZhOGY0N2MyNzM2Mi5qcGeSlQMAzPPNEO3NCYWTBc0Bqc0BGIKhMAGhMQE" alt="">
+            <span>Работай не выходя из дома!</span>
+        </div>
+        <div class="img">
+            <img src="https://get.pxhere.com/photo/desk-furniture-table-electronics-design-room-technology-computer-keyboard-electronic-device-interior-design-laptop-shelf-electronic-instrument-desktop-computer-personal-computer-1615531.jpg" alt="">
+            <span>Гибкость графика!</span>
+        </div>
+        <div class="img">
+            <img src="https://afbf.ru/wp-content/uploads/2021/10/buhgalterskoe-osluzhivanie.jpeg" alt="">
+            <span>Официальное оформление<br> и полный соц. пакет!</span>
+        </div>
+        <div class="img">
+            <img src="https://ocdn.eu/pulscms-transforms/1/Pbwk9kpTURBXy8zODgzYmRlYmI0NDczMjVhZThmYjQxMDJlNzk3ZGZlZi5qcGeSlQMAzJnNEyDNCsKTBc0Bqc0BGIKhMAGhMQE" alt="">
+            <span>Стабильная заработная плата!</span>
+        </div>
+    </div>
+
+    <div id="contacts">
+        <center><h5>Хочешь делать карьеру не выходя<br> из дома - оставь заявку!</h5></center>
+        <form action="database.php" method="post" id="form_input">
+            <label for="name">Имя <span>*</span> </label><br>
+            <input name="name" type="text" placeholder="Введите имя" name="name" id="name"><br>
+            <label for="email">Ваша почта <span>*</span> </label><br>
+            <input name="email" type="email" placeholder="Введите почту" name="email" id="email"><br>
+            <label for="message">Сообщение <span>*</span> </label><br>
+            <textarea name="content" placeholder="Расскажите немного о себе" name="message" id="message"></textarea><br>
+            <input type="submit" id="mess_send" class="btn" value="Отправить">
+        </form>
+    </div>
+
+    <div id="faq">
+        <div>
+            <span class="title">История компании</span><br>
+            <span class="heading">Расскажем немного о себе</span>
+            <p>ООО «Телескрипт» является крупным контакт центром входит в 15 крупнейший по России по рейтингу РБК. Работаем с 2005 года являемся партнером для многих крупных заказчиков. Занимаемся обслуживанием входящих и исходящих звонков.
+                В Вологде и Калуге у нас функционируют большие современные офисы, а так же огромное кол-во сотрудников подключаются удаленно со всей территории РФ.</p>
+
+        </div>
+        <div>
+            <span class="title">Информация</span><br>
+            <span class="heading">Что входит в услуги сервиса</span>
+            <p>• Подготовка и запуск проекта<br>• Менеджмент/администрирование/сопровождение проекта<br>• Отчетность по проекту<br>• Формирование базы данных <br>• Разработка скрипта разговора</p>
+        </div>
+        <div>
+            <span class="title">Контакты</span><br>
+            <span class="heading">Как с нами связаться</span>
+            <p><i class="fas fa-phone"> +7-777-777-77-77</i><br><br>
+                <i class="fas fa-envelope"> Kudinov@yandex.ru</i><br><br>
+                <i class="fas fa-earth-americas">г.Москва, ул. Новаторов, 14</i><br></p>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        function slowScroll(id){
+            $('html, body').animate({
+                scrollTop: $(id).offset().top
+            },500);
+        }
+
+        $(document).on("scroll", function () {
+            if($(window).scrollTop() === 0)
+                $("header").removeClass("fixed");
+            else
+                $("header").attr("class", "fixed");
+        });
+    </script>
+
+</body>
+</html>
